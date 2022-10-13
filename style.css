@@ -1,44 +1,35 @@
-div	{
-	margin: auto ;
-	width: 400px;
-	margin-top: 100px;
+.judul {
+	text-align: center;
+	font-family: sans-serif;
 }
-Body { 
-    Background-color:pink;
-}
-table {
-	border-style: none;
-	border-collapse: collapse;
-}
-th{
-	background-color: #b9130e;
-	padding: 5px;
-	border: none;
-	font-size: 16px;
-}
-tr {
-    margin-bottom: 10px;
-}   
-td{
-	border: none;
-}
-input[type=text]{
+.bmi {
+	margin: 100px auto;
+	width: 30%;
 	padding: 10px;
-	width: 380px;
-	border-style: solid;
-	border-color: hsl(9, 92%, 45%);
-	font-size: 16px;
+	border: 1px solid #ccc;
+	background: lightblue;
+	border-radius: 10px;
 }
-input[type=text]:disabled{
-	background-color: rgb(138, 2, 2);
+.label {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: sans-serif;
 }
-button {
+.input{
+	padding: 10px;
 	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border:1px solid;
+}
+
+.btn {
 	height: 40px;
-	background-color: #4b9499;
-    border: none;
+	background-color: #4CAF50;
+	border-radius: 10px;
     color: white;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+	
 }
